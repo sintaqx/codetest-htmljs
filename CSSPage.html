@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://db.onlinewebfonts.com/c/2858f88cb71b6ac1122a944e220d9940?family=DK+Cool+Crayon" rel="stylesheet" type="text/css"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <title></title>
+    <style>
+      @import url("https://db.onlinewebfonts.com/c/2858f88cb71b6ac1122a944e220d9940?family=DK+Cool+Crayon");
+      @font-face {font-family: "DK Cool Crayon"; src: url("//db.onlinewebfonts.com/t/2858f88cb71b6ac1122a944e220d9940.eot"); src: url("//db.onlinewebfonts.com/t/2858f88cb71b6ac1122a944e220d9940.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2858f88cb71b6ac1122a944e220d9940.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2858f88cb71b6ac1122a944e220d9940.woff") format("woff"), url("//db.onlinewebfonts.com/t/2858f88cb71b6ac1122a944e220d9940.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2858f88cb71b6ac1122a944e220d9940.svg#DK Cool Crayon") format("svg"); }
+      #outerwrapper { width: 601px; margin-left: 60px; margin-right: 60px; margin-top: 60px; margin-bottom: 60px; }
+      #innerheader { font-family: "DK Cool Crayon"; text-align: center; font-size: 60px; padding-top: 10px;}
+      #innerbox, #innerfooter { width: 410px; padding: 10px;}
+      #profileimg {height: 131px; width: 131px; float: left; position: relative; top: -65px; left: -65px; margin-right: -131px; margin-bottom: -60px; background-image: url(profileimg.png)}
+      #profiletext {padding: 5px 20px 10px 20px; font-size: 1.15em;}
+      .button { margin: 5px 5% 5px 5%; }
+      .smallborder { border: 1px solid black; }
+      #socialbuttons {text-align: center;}
+      #socialbuttons:after {content: ""; display: table; clear: both;}
+      #socialbuttons .social {display: inline-block; padding: 5px 10px 5px 10px; width: 22.5%; color: #555;}
+      #hirebutton {text-align: center; font-size: 3em; color: #555; margin-top: 10px; padding: 10px 0 10px 0;}
+      #innerfooter {height: 50px; font-size: 1.1em; font-weight: bold; }
+      #innerfooter #hearts {float: left;}
+      #innerfooter #projects {float: right;}
+      #innerfooter div .sep {width: 6px; height: 30px; background-image: url("sep.png"); background-repeat: no-repeat; background-position: center; margin: 0px 10px 0px 10px;}
+      #hearts {display: table; width: 50%; height: 30px; text-align: left;}
+      #projects {display: table; width: 50%; height: 30px; text-align: right;}
+      #hearts div {height: 30px; display: table-cell;  vertical-align: middle; padding: 0 25px 0 0 }
+      #hearts .heart {height: 30px; width: 21px; background-image: url("heart.png"); background-repeat: no-repeat; background-position: center;}
+      #projects div {height: 30px; display: table-cell; vertical-align: middle; padding: 0 10px 0 0 }
+
+    </style>
+  </head>
+  <body>
+    <div id=outerwrapper>
+      <div id=innerbox class="smallborder">
+        <div id=profileimg></div>
+        <div id=innerheader>Maddie</div>
+        <div id=profiletext>Maddie is a front end web developer in New York. She has worked in the field for 10 years now. Check out her projects in the links below. She is available for hire as well.</div>
+        <div id=socialbox>
+          <div id=socialbuttons>
+            <div id=linkedinbutton class="button social smallborder">LinkedIn</div>
+            <div id=twitterbutton class="button social smallborder">Twitter</div>
+            <div id=githubbutton class="button social smallborder">GitHub</div>
+          </div>
+          <div id=hirebutton class="button hire smallborder">Hire Me</div>
+        </div>
+      </div>
+
+      <div id=innerfooter class="smallborder">
+        <div id="hearts">
+          <div class="heart"></div>
+          <div class="sep"></div>
+          <div id="heartcount">1.5K</div>
+        </div>
+        <div id="projects">
+          <div>Projects</div>
+          <div class="sep"></div>
+          <div id="projectcount">154</div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

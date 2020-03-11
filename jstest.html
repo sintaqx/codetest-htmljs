@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Subtract the numbers in the array, starting from the left:</p>
+
+<p id="demo"></p>
+
+<p id="tmp"></p>
+<script>
+const s = "major% %spar%%ks";
+let acc = Array();
+
+document.getElementById("demo").innerHTML = erase(s);
+
+function erase(s) {
+  return s.split("").reduce((acc,val) =>  val == "%" ? acc.slice(0,-1) : acc + val);
+}
+</script>
+
+</body>
+</html>
